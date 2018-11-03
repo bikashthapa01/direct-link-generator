@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Google Drive Image Link Generator | Direct Link For Images in Drive</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<h1>Direct Link Generator <small>For Images Stores in Google Drive</small></h1>
+	</header>
+	<div class="content">
+		<div id="msg" style="display: none;">
+			<h4>Popup Blocked !!</h4>
+			<p>Please Enable Pop to get Direct Image Link. </p>
+			<img src="images/pop.png">
+		</div>
+		<form method="get" action="index.html">
+			<label>Image Url : ex: <span id="url">https://drive.google.com/open?id=1_kmXp2ShyCL75X3DAhECE28Sd3QbNg_h </span></label>
+			<input type="text" name="url" placeholder="Google Drive Image Link" required>
+			<label>Width: </label>
+			<input type="width" name="width" value="1920">
+			<label>Height: </label>
+			<input type="height" name="height" value="1080">
+			<input id="input" type="submit">
+		</form>
+
+		<div class="guide">
+			<br>
+			<h1>How to Get Image Link Stored in Google Drive ?</h1>
+			<p>
+				<li>First Upload Image into Google Drive. </li>
+				<li>Get Shareable Link : Paste That Link to Image URL Field Above: </li>
+			</p>
+		</div>
+
+	</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
